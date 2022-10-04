@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  max-height: 100vh;
+  width: 100%;
+}
+
+svg, img {
+  min-width: 50%;
+  max-width: 600px;
+  height: auto;
+  flex: auto;
+}
+
+svg .line-1 {
+  fill: #43D9B8;
+}
+
+svg .text , .arrow{
+  fill: #FFF; 
+  stroke: #fff;
+}
+
+svg .background {
+  fill: black;
+}
